@@ -100,12 +100,38 @@ To add a new field (example: Date of Birth):
 
 ### Backend
 
-Update models/User.ts
-Add the new field
-Update validation in controller
+- Update models/User.ts
+- Add the new field
+- Update validation in controller
 
 ### Frontend
 
-Update types/user.ts
-Add input in UserForm.tsx
-Add validation logic
+- Update types/user.ts
+- Add input in UserForm.tsx
+- Add validation logic
+
+Because of the modular structure, new fields can be added with minimal changes.
+
+---
+
+## Testing
+All APIs were tested using Postman.
+Supported operations:
+- Create user
+- Fetch users
+- Update user
+- Delete user
+
+---
+
+## Deployment
+Backend
+Deployed using Render
+Deployement Link - https://crud-app-backend-lapg.onrender.com/
+
+Frontend
+Deployed using Vercel
+Deployemnt Link - https://crud-app-frontend-0guj.onrender.com/
+
+---
+
