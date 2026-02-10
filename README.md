@@ -124,14 +124,15 @@ Supported operations:
 
 ---
 
-## Deployment
-Backend
-Deployed using Render
-- Deployement Link - https://crud-app-backend-lapg.onrender.com/
+## Live Demo & Deployment
 
-Frontend
-Deployed using Vercel
-- Deployemnt Link - https://crud-app-frontend-0guj.onrender.com/
+### Frontend (Live App)
+https://crud-app-frontend-0guj.onrender.com
 
+### Backend (API Server)
+https://crud-app-backend-lapg.onrender.com
+
+### API Endpoint Example
+https://crud-app-backend-lapg.onrender.com/api/users
 ---
 
