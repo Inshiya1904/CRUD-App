@@ -1,4 +1,4 @@
-React + TypeScript CRUD Application (Full Stack)
+# React + TypeScript CRUD Application (Full Stack)
 
 A full-stack CRUD (Create, Read, Update, Delete) web application built using modern technologies.
 
