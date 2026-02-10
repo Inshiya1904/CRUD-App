@@ -93,3 +93,19 @@ Step 3: Start Frontend Server
 ```bash
 npm run dev
 ```
+---
+
+## Extensibility (Adding New Fields)
+To add a new field (example: Date of Birth):
+
+### Backend
+
+Update models/User.ts
+Add the new field
+Update validation in controller
+
+### Frontend
+
+Update types/user.ts
+Add input in UserForm.tsx
+Add validation logic
