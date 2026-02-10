@@ -74,3 +74,22 @@ Step 3: Start Backend Server
 ```bash
 npm run dev
 ```
+
+---
+
+## Frontend Setup
+
+Step 1: Go to Frontend Folder
+```bash
+cd Frontend
+```
+
+Step 2: Install Dependencies
+```bash
+npm install
+```
+
+Step 3: Start Frontend Server
+```bash
+npm run dev
+```
