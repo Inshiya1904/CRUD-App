@@ -2,7 +2,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import type { User } from "../types/user";
 
-const API_URL = "http://localhost:3000/api/users";
+const API_URL = "https://crud-app-backend-lapg.onrender.com/api/users";
 
 // Axios instance
 const api = axios.create({
