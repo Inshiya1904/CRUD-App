@@ -1,4 +1,5 @@
 # React + TypeScript CRUD Application (Full Stack)
+---
 
 A full-stack CRUD (Create, Read, Update, Delete) web application built using modern technologies.
 
@@ -25,9 +26,9 @@ This project allows users to manage user records with proper validation, search,
 
 ---
 
-## ✨ Features
+## Features
 
-### ✅ Frontend
+### Frontend
 - React with TypeScript
 - Tailwind CSS UI
 - Responsive layout
@@ -38,7 +39,7 @@ This project allows users to manage user records with proper validation, search,
 - Separate pages using React Router
 - Edit & Delete functionality
 
-### ✅ Backend
+### Backend
 - Node.js + Express with TypeScript
 - MongoDB with Mongoose
 - RESTful CRUD APIs
@@ -48,7 +49,7 @@ This project allows users to manage user records with proper validation, search,
 
 ---
 
-## 📂 Project Repository
+## Project Repository
 
 Clone the repository:
 
@@ -126,11 +127,11 @@ Supported operations:
 
 ## Deployment
 Backend
-Deployed using Render
+- Deployed using Render
 Deployement Link - https://crud-app-backend-lapg.onrender.com/
 
 Frontend
-Deployed using Vercel
+- Deployed using Vercel
 Deployemnt Link - https://crud-app-frontend-0guj.onrender.com/
 
 ---
