@@ -1,5 +1,4 @@
 # React + TypeScript CRUD Application (Full Stack)
----
 
 A full-stack CRUD (Create, Read, Update, Delete) web application built using modern technologies.
 
@@ -127,12 +126,12 @@ Supported operations:
 
 ## Deployment
 Backend
-- Deployed using Render
-Deployement Link - https://crud-app-backend-lapg.onrender.com/
+Deployed using Render
+- Deployement Link - https://crud-app-backend-lapg.onrender.com/
 
 Frontend
-- Deployed using Vercel
-Deployemnt Link - https://crud-app-frontend-0guj.onrender.com/
+Deployed using Vercel
+- Deployemnt Link - https://crud-app-frontend-0guj.onrender.com/
 
 ---
 
