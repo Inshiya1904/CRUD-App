@@ -58,9 +58,7 @@ const UserForm = ({ onSubmit, editUser }: Props) => {
   // ======================
   // Handlers
   // ======================
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({
       ...form,
       [e.target.name]: e.target.value,
@@ -101,9 +99,7 @@ const UserForm = ({ onSubmit, editUser }: Props) => {
           className="w-full border px-3 py-2 rounded"
         />
         {errors.firstName && (
-          <p className="text-red-500 text-sm">
-            {errors.firstName}
-          </p>
+          <p className="text-red-500 text-sm">{errors.firstName}</p>
         )}
       </div>
 
@@ -117,9 +113,7 @@ const UserForm = ({ onSubmit, editUser }: Props) => {
           className="w-full border px-3 py-2 rounded"
         />
         {errors.lastName && (
-          <p className="text-red-500 text-sm">
-            {errors.lastName}
-          </p>
+          <p className="text-red-500 text-sm">{errors.lastName}</p>
         )}
       </div>
 
@@ -127,16 +121,23 @@ const UserForm = ({ onSubmit, editUser }: Props) => {
       <div>
         <input
           name="phone"
+          type="tel"
           placeholder="Phone Number"
           value={form.phone}
-          onChange={handleChange}
+          onChange={(e) => {
+            const onlyNums = e.target.value.replace(/\D/g, "");
+
+            if (onlyNums.length <= 10) {
+              setForm({
+                ...form,
+                phone: onlyNums,
+              });
+            }
+          }}
           className="w-full border px-3 py-2 rounded"
         />
-        {errors.phone && (
-          <p className="text-red-500 text-sm">
-            {errors.phone}
-          </p>
-        )}
+
+        {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
       </div>
 
       {/* Email */}
@@ -148,11 +149,7 @@ const UserForm = ({ onSubmit, editUser }: Props) => {
           onChange={handleChange}
           className="w-full border px-3 py-2 rounded"
         />
-        {errors.email && (
-          <p className="text-red-500 text-sm">
-            {errors.email}
-          </p>
-        )}
+        {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
       </div>
 
       <button className="bg-blue-600 text-white text-xl font-medium px-4 py-2 rounded w-full">
