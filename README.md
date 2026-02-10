@@ -1,14 +1,27 @@
 # 🚀 React + TypeScript CRUD Application (Full Stack)
 
-A full-stack CRUD (Create, Read, Update, Delete) web application built using:
+A full-stack CRUD (Create, Read, Update, Delete) web application built using modern technologies.
 
-- Frontend: React + TypeScript + Tailwind CSS
-- Backend: Node.js + Express + TypeScript
-- Database: MongoDB
-- API: RESTful API
-- Notifications: React Hot Toast
+This project allows users to manage user records with proper validation, search, pagination, and a clean user interface.
 
-This project allows users to manage user records with proper validation, search, pagination, and a modern UI.
+---
+
+## 📌 Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Axios
+- React Hot Toast
+
+### Backend
+- Node.js
+- Express
+- TypeScript
+- MongoDB
+- Mongoose
 
 ---
 
@@ -28,14 +41,17 @@ This project allows users to manage user records with proper validation, search,
 ### ✅ Backend
 - Node.js + Express with TypeScript
 - MongoDB with Mongoose
-- REST APIs for CRUD operations
+- RESTful CRUD APIs
 - Centralized error handling
 - Input validation
 - Clean architecture (Routes, Controllers, Models)
 
 ---
 
-### Clone Repo
+## 📂 Project Repository
+
+Clone the repository:
+
 ```bash
 git clone https://github.com/Inshiya1904/CRUD-App.git
 ```
@@ -43,21 +59,18 @@ git clone https://github.com/Inshiya1904/CRUD-App.git
 ---
 
 ## Backend Setup
-### Go to Backend Folder
 
+Step 1: Go to Backend Folder
 ```bash
 cd Backend
-npm install
-npm run dev
 ```
-## Frontend Setup
-### Go to Frontend Folder
 
+Step 2: Install Dependencies
 ```bash
-cd Frontend
 npm install
-npm run dev
 ```
 
-
-
+Step 3: Start Backend Server
+```bash
+npm run dev
+```
