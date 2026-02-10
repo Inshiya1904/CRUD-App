@@ -36,6 +36,9 @@ This project allows users to manage user records with proper validation, search,
 ---
 
 ### Clone Repo
+```bash
+git clone https://github.com/Inshiya1904/CRUD-App.git
+```
 
 ---
 
